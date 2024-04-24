@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CREDITY - Classify the customer's credit rating</title>
+    <link rel="icon" type="image/png" href="/static/images/logo.png">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="nav_container ">
+      <div class="content">
+        <div class="left_nav ">
+          <div class="logo">
+            <div class="image">
+              <img
+                src="/static/images/logo.png"
+                width="70"
+                height="70"
+                alt="logo"
+              />
+            </div>
+
+            <div class="logo_title">
+              <h4>CREDITY</h4>
+            </div>
+          </div>
+
+          <div class="links mx-0">
+            <ul class="">
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#predictor">Predictor</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#why">Why?</a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#parameters">Parameters</a>
+              </li>
+              <!--<li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supplements">Supplements</a>
+              </li> --> 
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#help">Help</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+        <div class="right_nav justify-self-end">
+          <div class="versions">
+            <div class="version">
+              <h5>1.0.1</h5>
+            </div>
+          </div>
+          <div class="sidemenu" id="sidemenu" onclick="openNav()">
+            
+            <img src="/static/images/menu.png" width="20" height="20" id="mobile_menu_icon"/>
+          
+          </div> 
+        </div>
+      </div>
+
+      <div class="mobile_menu_slide" id="mobile_menu_slide">
+          <div class="links mx-0">
+            <ul class="">
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#predictor" onClick="openNav()">
+                  Predictor
+                </a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#why" onClick="openNav()">
+                  Why?
+                </a>
+              </li>
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#parameters" onClick="openNav()">
+                  Parameters
+                </a>
+              </li>
+
+              <!-- <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#supported" onClick="openNav()">
+                  Key Parameters
+                </a>
+              </li> -->
+
+              <li class="text-gray-500 hover:text-gray-900 delay-200">
+                <a href="#help" onClick="openNav()">
+                  Help
+                </a>
+              </li>
+
+              
+              
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+
+
+    <section class="hero_section">
+      <div class="content">
+        <div class="title">
+          <h1>Classify Credit Rating Through AI</h1>
+        </div>
+        <div class="subtitle">
+          <h2 class="">
+            Predicting Creditworthiness with CREDITY<br/>Assessing Customers' Credit Ratings
+            <!-- Providing tailored suggestions to fortify plant health based on disease detection results -->
+            <!-- -Detect, Prevent, and Expert Guidance -->
+          </h2>
+  
+          <h2 class="npm">
+            <a href="https://www.npmjs.com/package/kemcholang" target="_blank"><code>AAA - Automated, AI-powered , Advanced </code></a>
+          </h2>
+  
+          <h2 class="developer_name">Made for <span><Link href="https://www.linkedin.com/in/darshan-balar-4302141bb/" target="_blank">Professionals</a></span></h2>
+        </div>
+  
+        <div class="buttons">
+          <a href="#predictor">
+            <button>Get Started</button>
+          </a>
+          <a href="#help">
+            <button class="documentbutton">Help</button>
+          </a>
+        </div>
+        <div class="mt-14 image">
+          <img
+            src="/static/images/logo.png"
+            width="120"
+            height="120"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+
+   <!---------- -->
+   <!-- Why is it necessary to detect disease in plant ?
+   Plant diseases affect the growth of their respective species. In addition, some research gaps are identified from which to obtain greater transparency for detecting diseases in plants, even before their symptoms appear clearly. diagnosis is one of the most important aspects of a plant pathologist's training. Without proper identification of the disease and the disease-causing agent, disease control measures can be a waste of time and money and can lead to further plant losses. Proper disease diagnosis is necessary. -->
+
+   <!------- Why ? -->
+   <section>
+    <div class="why_container" id="why">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Why ?</h1>
+        </div>
+        <div class="body my-14">
+
+          <div class="description">
+          <h2 class="title">Why is it necessary to classify credit rating ?</h2>
+
+
+            <p>
+              
+            
+              Credit rating classification is crucial for assessing the risk associated with lending, facilitating informed decision-making for financial institutions, and enabling individuals and businesses to monitor their financial health. By categorizing customers based on creditworthiness, lenders can determine appropriate terms, interest rates, and credit limits, thereby reducing the risk of default. Transparent credit ratings also foster trust in the financial market, allowing investors and creditors to assess borrower stability and reliability. Additionally, regulatory compliance mandates the assessment of credit risk, ensuring the integrity and stability of the financial system. Overall, credit rating classification plays a pivotal role in managing risk, promoting financial stability, and facilitating responsible lending practices.</p>
+        </div></div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+   <!--- SUPORTED FRUITS -->
+   <section>
+    <div class="support_container" id="parameters">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Major Parameters </h1>
+        </div>
+        <div class="body my-14">
+              <div class="plants">
+                 <div class="plant">
+                    <div class="image">
+                        <img src="/static/images/employee.png" width="50" height="50"/>
+                    </div>
+                    <div class="subtitle">
+                      Employment
+                    </div>
+                 </div>
+
+                 <div class="plant">
+                  <div class="image">
+                      <img src="/static/images/money.png" width="50" height="50"/>
+                  </div>
+                  <div class="subtitle">
+                    Balance in A/C
+                  </div>
+               </div>
+
+
+               <div class="plant">
+                <div class="image">
+                    <img src="/static/images/wedding-ring.png" width="50" height="50"/>
+                </div>
+                <div class="subtitle">
+                  Merital-Status
+                </div>
+             </div>
+
+
+             <div class="plant">
+              <div class="image">
+                  <img src="/static/images/growth.png" width="50" height="50"/>
+              </div>
+              <div class="subtitle">
+                Age
+              </div>
+           </div>
+
+
+           <div class="plant">
+            <div class="image">
+                <img src="/static/images/house.png" width="50" height="50"/>
+            </div>
+            <div class="subtitle">
+              Residence
+            </div>
+         </div>
+
+         <div class="plant">
+          <div class="image">
+              <img src="/static/images/suitcase.png" width="50" height="50"/>
+          </div>
+          <div class="subtitle">
+            Job
+          </div>
+       </div>
+
+       <div class="plant">
+        <div class="image">
+            <img src="/static/images/dependencies.png" width="50" height="50"/>
+        </div>
+        <div class="subtitle">
+          No.of Dependents
+        </div>
+     </div>
+
+     <div class="plant">
+      <div class="image">
+          <img src="/static/images/money (1).png" width="50" height="50"/>
+      </div>
+      <div class="subtitle">
+        Credit-Amount
+      </div>
+   </div>
+
+   <div class="plant">
+    <div class="image">
+        <img src="/static/images/target.png" width="50" height="50"/>
+    </div>
+    <div class="subtitle">
+      Purpose
+    </div>
+ </div>
+
+ <div class="plant">
+  <div class="image">
+      <img src="/static/images/loan.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Install Rate
+  </div>
+</div>
+<div class="plant">
+  <div class="image">
+      <img src="/static/images/hourglass.png" width="50" height="50"/>
+  </div>
+  <div class="subtitle">
+    Duration
+  </div>
+</div>
+
+
+                 
+              </div>
+        </div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+
+   <section>
+    <div class="playground_container" id="predictor">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Predictor</h1>
+        </div>
+        <div class="body my-14">
+           <div class="fileupload">
+
+            <form id="uploadForm" action="/" method="POST" enctype="multipart/form-data" onsubmit="submitForm(event)">
+              <input type="file" id="fileInput" name="image" hidden/>
+          </form>
+
+          
+            <div class="form_credit"><div class="image mb-6">
+              
+            </div>
+               <div class="title">
+                 <h1>Simply Fill The Below Form then see the magic of AI</h1>
+               </div>
+               <div class="button">
+                <form method="POST" action="/">
+              
+                  <table>
+                      <!-- Checking Account -->
+                      <tr>
+                          <td>
+                              <label for="CHK_ACCT">Checking Account</label>
+                          </td>
+                          <td>
+                              <select id="CHK_ACCT" name="CHK_ACCT" class="form-control">
+                                  <option value="0DM">0DM</option>
+                                  <option value="less-200DM">less-200DM</option>
+                                  <option value="no-account">no-account</option>
+                                  <option value="over-200DM">over-200DM</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Duration -->
+                      <tr>
+                          <td>
+                              <label for="Duration">Duration</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Duration" name="Duration" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- History -->
+                      <tr>
+                          <td>
+                              <label for="History">History</label>
+                          </td>
+                          <td>
+                              <select id="History" name="History" class="form-control">
+                                  <option value="critical">critical</option>
+                                  <option value="duly-till-now">duly-till-now</option>
+                                  <option value="all-paid-duly">all-paid-duly</option>
+                                  <option value="bank-paid-duly">bank-paid-duly</option>
+                                  <option value="delay">delay</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Purpose of Credit -->
+                      <tr>
+                          <td>
+                              <label for="Purpose_of_credit">Purpose of Credit</label>
+                          </td>
+                          <td>
+                              <select id="Purpose_of_credit" name="Purpose_of_credit" class="form-control">
+                                  <option value="radio-tv">radio-tv</option>
+                                  <option value="education">education</option>
+                                  <option value="furniture">furniture</option>
+                                  <option value="new-car">new-car</option>
+                                  <option value="used-car">used-car</option>
+                                  <option value="domestic-app">domestic-app</option>
+                                  <option value="repairs">repairs</option>
+                                  <option value="business">business</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Credit Amount -->
+                      <tr>
+                          <td>
+                              <label for="Credit_Amount">Credit Amount</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Credit_Amount" name="Credit_Amount" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Balance in Savings A/C -->
+                      <tr>
+                          <td>
+                              <label for="Balance_in_Savings_A_C">Balance in Savings A/C</label>
+                          </td>
+                          <td>
+                              <select id="Balance_in_Savings_A_C" name="Balance_in_Savings_A_C" class="form-control">
+                                  <option value="unknown">unknown</option>
+                                  <option value="less100DM">less100DM</option>
+                                  <option value="less500DM">less500DM</option>
+                                  <option value="less1000DM">less1000DM</option>
+                                  <option value="over1000DM">over1000DM</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Employment -->
+                      <tr>
+                          <td>
+                              <label for="Employment">Employment</label>
+                          </td>
+                          <td>
+                              <select id="Employment" name="Employment" class="form-control">
+                                  <option value="over-seven">over-seven</option>
+                                  <option value="four-years">four-years</option>
+                                  <option value="seven-years">seven-years</option>
+                                  <option value="unemployed">unemployed</option>
+                                  <option value="one-year">one-year</option>
+                                  <option value="bank-paid-duly">bank-paid-duly</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Install rate -->
+                      <tr>
+                          <td>
+                              <label for="Install_rate">Install rate</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Install_rate" name="Install_rate" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Marital status -->
+                      <tr>
+                          <td>
+                              <label for="Marital_status">Marital status</label>
+                          </td>
+                          <td>
+                              <select id="Marital_status" name="Marital_status" class="form-control">
+                                  <option value="single-male">single-male</option>
+                                  <option value="female-divorced">female-divorced</option>
+                                  <option value="male-divorced">male-divorced</option>
+                                  <option value="married-male">married-male</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Co-applicant -->
+                      <tr>
+                          <td>
+                              <label for="Co_applicant">Co-applicant</label>
+                          </td>
+                          <td>
+                              <select id="Co_applicant" name="Co_applicant" class="form-control">
+                                  <option value="none">none</option>
+                                  <option value="guarantor">guarantor</option>
+                                  <option value="co-applicant">co-applicant</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Present Resident -->
+                      <tr>
+                          <td>
+                              <label for="Present_Resident">Present Resident</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Present_Resident" name="Present_Resident" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Real Estate -->
+                      <tr>
+                          <td>
+                              <label for="Real_Estate">Real Estate</label>
+                          </td>
+                          <td>
+                              <select id="Real_Estate" name="Real_Estate" class="form-control">
+                                  <option value="real-estate">real-estate</option>
+                                  <option value="building-society">building-society</option>
+                                  <option value="car">car</option>
+                                  <option value="none">none</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Age -->
+                      <tr>
+                          <td>
+                              <label for="Age">Age</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Age" name="Age" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Other installment -->
+                      <tr>
+                          <td>
+                              <label for="Other_installment">Other installment</label>
+                          </td>
+                          <td>
+                              <select id="Other_installment" name="Other_installment" class="form-control">
+                                  <option value="none">none</option>
+                                  <option value="bank">bank</option>
+                                  <option value="stores">stores</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Residence -->
+                      <tr>
+                          <td>
+                              <label for="Residence">Residence</label>
+                          </td>
+                          <td>
+                              <select id="Residence" name="Residence" class="form-control">
+                                  <option value="own">own</option>
+                                  <option value="rent">rent</option>
+                                  <option value="free">free</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Num_Credits -->
+                      <tr>
+                          <td>
+                              <label for="Num_Credits">Number of Credits</label>
+                          </td>
+                          <td>
+                              <input type="number" id="Num_Credits" name="Num_Credits" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Job -->
+                      <tr>
+                          <td>
+                              <label for="Job">Job</label>
+                          </td>
+                          <td>
+                              <select id="Job" name="Job" class="form-control">
+                                  <option value="skilled">skilled</option>
+                                  <option value="unskilled-resident">unskilled-resident</option>
+                                  <option value="management">management</option>
+                                  <option value="unemployed-non-resident">unemployed-non-resident</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Number of Dependents -->
+                      <tr>
+                          <td>
+                              <label for="No_dependents">Number of Dependents</label>
+                          </td>
+                          <td>
+                              <input type="number" id="No_dependents" name="No_dependents" class="form-control" required>
+                          </td>
+                      </tr>
+  
+                      <!-- Phone -->
+                      <tr>
+                          <td>
+                              <label for="Phone">Phone</label>
+                          </td>
+                          <td>
+                              <select id="Phone" name="Phone" class="form-control">
+                                  <option value="no">no</option>
+                                  <option value="yes">yes</option>
+                              </select>
+                          </td>
+                      </tr>
+  
+                      <!-- Foreign -->
+                      <tr>
+                          <td>
+                              <label for="Foreign">Foreign</label>
+                          </td>
+                          <td>
+                              <select id="Foreign" name="Foreign" class="form-control">
+                                  <option value="no">no</option>
+                                  <option value="yes">yes</option>
+                              </select>
+                          </td>
+                      </tr>
+                  </table>
+  
+                  <div class="button_submit">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+  
+                  
+              </form>
+  
+               </div>
+
+              </div>
+           </div>
+           <div class="suggestions">
+
+            <div class="image mb-6">
+              <img src="/static/images/logo.png" width="100" height="100"/>
+            </div>
+            <div class="title">
+
+              {% if prediction %}
+              <div class="output">
+
+                <h2 class="report_title">Report </h2>
+                
+
+                <table>
+                  <tr>
+                    <th colspan="4">Submitted Data</th>
+                    
+                  </tr>
+                  <tr>
+                      <td>
+                        <div class="table_data">
+                          <div class="key">CHK_ACCT</div>
+                          <div class="value">{{chak}}</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="table_data">
+                          <div class="key">Duration</div>
+                          <div class="value">{{duration}}</div>
+                        </div>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="table_data">
+                        <div class="key">History</div>
+                        <div class="value">{{history}}</div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="table_data">
+                        <div class="key">Purpose</div>
+                        <div class="value">{{purpose}}</div>
+                      </div>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="table_data">
+                      <div class="key">Credit_Amount</div>
+                      <div class="value">{{credit_amount}}</div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table_data">
+                      <div class="key">Balance</div>
+                      <div class="value">{{balance}}</div>
+                    </div>
+                  </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="table_data">
+                    <div class="key">Employment</div>
+                    <div class="value">{{employment}}</div>
+                  </div>
+                </td>
+                <td>
+                  <div class="table_data">
+                    <div class="key">Install_rate</div>
+                    <div class="value">{{install_rate}}</div>
+                  </div>
+                </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="table_data">
+                  <div class="key">Marital_status</div>
+                  <div class="value">{{marital_status}}</div>
+                </div>
+              </td>
+              <td>
+                <div class="table_data">
+                  <div class="key">Co_applicant</div>
+                  <div class="value">{{co_applicant}}</div>
+                </div>
+              </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="table_data">
+                <div class="key">Present_Resident</div>
+                <div class="value">{{present_residence}}</div>
+              </div>
+            </td>
+            <td>
+              <div class="table_data">
+                <div class="key">Real_Estate</div>
+                <div class="value">{{real_estate}}</div>
+              </div>
+            </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="table_data">
+              <div class="key">Age</div>
+              <div class="value">{{age}}</div>
+            </div>
+          </td>
+          <td>
+            <div class="table_data">
+              <div class="key">Other_installment</div>
+              <div class="value">{{other_installment}}</div>
+            </div>
+          </td>
+      </tr>
+
+
+      <tr>
+        <td>
+          <div class="table_data">
+            <div class="key">Num_Credits</div>
+            <div class="value">{{no_of_credits}}</div>
+          </div>
+        </td>
+        <td>
+          <div class="table_data">
+            <div class="key">Job</div>
+            <div class="value">{{job}}</div>
+          </div>
+        </td>
+    </tr>
+
+    <tr>
+      <td>
+        <div class="table_data">
+          <div class="key">No_dependents</div>
+          <div class="value">{{no_of_dependents}}</div>
+        </div>
+      </td>
+      <td>
+        <div class="table_data">
+          <div class="key">Phone</div>
+          <div class="value">{{phone}}</div>
+        </div>
+      </td>
+  </tr>
+                </table>
+
+
+                <br/>
+
+                <div class="score">
+                  
+                <h2>Score</h2>
+
+             
+                <h3 class="{% if prediction[0] == 'good' %}success{% else %}error{% endif %}">
+                  {{ prediction[0] }}
+              </h3>
+
+              {% if prediction[0] == 'good' %} 
+              <h4 class="output_msg">Congratulations! Your credit rating is in good standing. Keep up the responsible financial habits!</h4>
+              {% else %}
+              <h4 class="output_msg">Uh-oh! It seems your credit rating needs improvement. Consider reviewing your financial habits and seeking advice.</h4>
+
+              {% endif %}
+            </div>
+              
+              
+             </div>
+             {% endif %}
+
+             {% if not prediction %}
+             <div class="dummy">After submitting the form , output will be shown here </br/> It may take a some while
+             {% endif %}
+             
+           </div>
+        </div>
+      </div>
+    </div>
+          <!-- </section> -->
+   </section>
+
+
+   <!--------- SUPPLEMENTS 
+
+   <section>
+    <div class="supplements_container" id="supplements">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Supplements</h1>
+        </div>
+        <div class="body my-14">
+              <div class="plants">
+
+                {% for index in range(0,supplement_name | length) %}
+                {% if index != 4 %}
+                <div class="plant">
+                 
+                    
+                        {% if index==3 or index==5 or index==7 or index==11 or index==15 or index==18 or index==20 or
+                        index==23 or
+                        index==24 or index==25 or index==28 or index==38 %}
+                        <h5>Fertilizer<b style="color: green;"> (Healthy):</b></h5>
+                        {% else %}
+                        <h5>Supplements<b style="color: red;"> (Diseased):</b></h5>
+                        {% endif %}
+                        <br>
+
+                        <div class="image">
+                        <img src={{supplement_image[index]}} width="200" height="250" >
+                        </div>
+                        <br>
+                        <br>
+                        <h6>For {{disease[index]}}</h6>
+                        <p>{{supplement_name[index]}}</p>
+            
+                        <a target="_blank" href={{buy[index]}}><button type="button" class="buy_button "
+                          >Buy Product</button></a>
+                  
+                </div>
+                {% endif %}
+                {% endfor %}
+       
+             
+              </div>
+        </div>
+      </div>
+    </div>
+   </section>
+------------>
+   <section>
+    <div class="help_container" id="help">
+      <div class="content">
+        <div class="title">
+          <h1 class="text-3xl"># Help</h1>
+        </div>
+        <div class="body my-14">
+
+          <div class="description">
+          <h2 class="title">Belows are some helpful youtube video by experts suggestion </h2>
+
+            <div class="yvideos">
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c0TQlgoUHRE?si=x0Q-6440NYzTXH2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>What your credit score actually means</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YSihe9BEV5Q?si=TAWHJHTM873Y8QPS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>Credit/CIBIL Score explained in Hindi | Applying for a loan?</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/f2ortkJfTKw?si=GP3paUesv9AEunqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>What is a Credit Score? Kal Penn Explains</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7sc-pesjZ4w?si=5OJsIaO6IFwqFs4H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>Credit Score Explained</p>
+                </div>
+              </div>
+
+              <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nPwdHswGnxE?si=k9HeVz5kyceXo_tG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              
+
+                <div class="subtitle">
+                  <p>Increase CREDIT Score by 150 Points in Next 30 Days </p>
+                </div>
+              </div>
+            </div>
+        </div></div>
+      </div>
+    </div>
+   </section>
+
+   <div class="p-5 mt-3 text-center footer border border-1">
+    <h1 class="text-1xl">Made By Shubham Sinha, Anurag Sinha, Darshan Balar, 2024 </h1>
+  </div>
+   
+
+   <script>
+
+    let open = false;
+    // JavaScript to trigger click event on the hidden file input element
+    document.getElementById('fileInput').addEventListener('change', function() {
+      document.getElementById('uploadForm').submit();
+  });
+
+  function submitForm() {
+    var formData = new FormData();
+    var fileInput = document.getElementById('fileInput').files[0];
+    formData.append('image', fileInput);
+    
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', '/', true);
+    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var response = JSON.parse(xhr.responseText);
+            // Update the content of the desired HTML element with the response HTML
+            document.getElementById('output').innerHTML = response.html;
+        }
+    };
+    xhr.send(formData);
+}
+
+function openNav(){
+  let mobile_menu = document.getElementById(
+    "mobile_menu_slide"
+  );
+
+  let menu_icon = document.getElementById("mobile_menu_icon");
+
+  if(window.getComputedStyle(mobile_menu).display === "none"){
+    mobile_menu.style.display = "block";
+    open = true;
+    menu_icon.src = '/static/images/close.png';
+  }
+  else{
+    mobile_menu.style.display = "none";
+    menu_icon.src = '/static/images/menu.png'
+    open = false;
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get the section to scroll to from the query parameters
+  var scroll_to = "{{ scroll_to }}";
+  // If the section to scroll to is specified
+  if (scroll_to) {
+      // Get the corresponding element
+      var section = document.getElementById(scroll_to);
+      // Scroll to the section
+      section.scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+
+    </script>
+
+
+  </body>
+</html>

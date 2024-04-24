@@ -1,0 +1,52 @@
+
+@use "./CSS/Common/common";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: myFont;
+    src: url("../images/fonts/Blanka-Regular.otf");
+}
+
+@font-face{
+  font-family: myfont2;
+  src:url("../images/fonts/CONSOLA.TTF");
+}
+
+@font-face {
+  font-family: myFont3;
+  src: url("../images/fonts/Geist-Light-BF6569491dc9c01.otf");
+}
+
+body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  font-family: myFont3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@import "./CSS/Components/why";
+@import "./CSS/Components/navbar";
+@import './CSS/Components/hero';
+@import "./CSS/Components/developer";
+@import "./CSS/Components/play";
+
+@import "./CSS/Components/sidemenu";
+@import './CSS/Components/support';
+@import "./CSS/Components/supplements";
+@import "./CSS/Components/help";

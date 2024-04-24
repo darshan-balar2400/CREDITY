@@ -1,0 +1,307 @@
+.playground_container {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    .content {
+        width: 90vw; // Adjust as needed
+ 
+
+        .title {
+            text-align: center;
+            h1 {
+                font-weight: bold;
+            }
+        }
+
+        .body {
+            width:100%;
+            display:flex;
+
+            justify-content:center;
+
+            gap: 2rem;
+
+            @media (max-width:550px){
+                width:100%;
+                // padding:0;
+               
+                // justify-content: flex-start;
+                flex-wrap: wrap;
+                // overflow-x:auto;
+            }
+           
+
+            .fileupload {
+                width: 35rem;
+                height: 38rem; // Adjust as needed
+                border: 1px solid gray;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                display: flex;
+                justify-content: center;
+                overflow-y:auto;
+                padding:2rem 0rem;
+                // align-items: center;
+
+                
+
+                .form_credit{
+                    // border:1px solid red;
+                    width:100%;
+                    display:flex;
+                    // justify-content:center;
+                    // align-items:center;
+                    flex-direction:column;
+
+
+
+                    .button{
+                        width:100%;
+                        // border:1px solid blue;
+                        padding:2rem;
+
+                        table{
+                            width:100%;
+                        }
+                       
+
+                        input,select{
+                            width:100%;
+                            border:1px solid gray;
+                            padding:0.3rem 0.5rem;
+                            outline:none;
+                            // margin-left:2rem;
+                            margin-bottom:1rem;
+                        }
+
+                        .button_submit{
+                            margin-top:2rem;
+                            button{
+                                @include common.button(){
+                                    background-color:black;
+                                    color:white;
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+            }
+
+            .suggestions {
+                border:1px dashed green;
+                width: 40rem;
+                max-height: 38rem;
+                overflow:hidden; // Adjust as needed
+                overflow-y: auto;
+                border-radius: 0.5rem;
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                display: flex;
+                flex-direction: column;
+                padding:5rem 0rem;
+                // justify-content:center;
+                align-items:center;
+
+                .dummy{
+
+                    // border:1px solid red;
+
+                    @media (max-width:550px){
+                        padding:0rem 1rem;
+                    }
+                    
+                    h5{
+                        margin-top:1rem;
+                        margin-bottom:1rem;
+                        text-decoration:underline;
+                    }
+
+                    ol{
+                        width:100%;
+                        text-align:left;
+
+                        li{
+                            margin-bottom:0.5rem;
+                        }
+
+                    }
+                }
+
+                .output {
+                    
+                    // width:10rem;
+                    padding: 0rem 3rem; // Adjust as needed
+                    width: 100%; // Ensure full width
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // justify-content:center;
+
+                    @media (max-width:550px){
+                        padding:0rem 1rem;
+                    }
+
+                    .report_title{
+                        font-size:2rem;
+                        margin-bottom: 2rem;
+                        // text-decoration: underline;
+                    }
+                  
+
+                    .title {
+                        font-size: 1.6rem;
+                        margin: 1rem 0rem;
+                        text-align: center;
+                    }
+
+                    table{
+                        width:100%;
+                        border:1px dashed gray;
+                        padding:0;
+
+                        tr{
+                            margin:0;
+                            padding:0;
+
+                            td{
+                                
+                                border:1px dashed black;
+                                padding:0.2rem 0.5rem;
+                              
+                                .table_data{
+                                    display:grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    gap:2rem;
+
+                                    .key{
+                                       font-weight:bold; 
+                                       justify-self: flex-start;
+                                    //    border-right:1px solid gray;
+                                    }
+
+                                    .value{
+                                        justify-self: flex-end;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .score{
+                        h2{
+                            margin:1rem 0rem;
+                            font-size:1.4rem;
+                        }
+
+                        h3{
+                            font-size:1.3rem;
+                            text-transform: uppercase;
+                            font-weight: bold;
+                        }
+    
+                        .success{
+                            color:green;
+                        }
+    
+                        .error{
+                            color:red;
+                        }
+
+                        .output_msg{
+                            font-size: 1.1rem;
+                            margin-top: 1rem;
+                        }
+
+                        
+                    }
+
+                    .image {
+                        margin-bottom: 1rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .plant {
+                            margin-right: 1.5rem;
+
+                            .image {
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: 50%;
+                                padding: 0.3rem;
+                                border: 1px solid gray;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+
+                    .description {
+                        font-size: 1rem;
+                        text-align: center;
+                        margin-bottom: 4rem;
+                        word-break:break-all;
+
+                        h3{
+                            font-size:1.2rem;
+                            margin-bottom:1rem;
+                            text-decoration:underline;
+                        }
+                    }
+
+                    .supplements{
+
+                        padding:2rem 3rem;
+                        border:1px dashed gray;
+                        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+                        h3{
+                            font-size:1.2rem;
+                            margin-bottom:1rem;
+                            text-decoration:underline;
+                        }
+
+                       
+
+                        .buy_button{
+                            margin-top:2rem;
+                            button{
+                                @include common.button(){
+                                    background-color:black;
+                                    color:white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .content .body .fileupload {
+            width: 80vw;
+        }
+        .content .body .suggestions {
+            width: 80vw;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .content .body .fileupload {
+            width: 100%;
+        }
+        .content .body .suggestions {
+            width: 100%;
+        }
+    }
+}
