@@ -51,27 +51,6 @@ We have used the RandomForest algorithm for classification
 
 You can refer to the `documentation.docx` file located in the project directory for additional documentation and information.
 
-## Directory Structure
-
-credity/
-├── app.py
-├── templates/
-│ ├── index.html
-│ └── ...
-├── static/
-│ ├── style/
-│ │ └── CSS/
-│ ├── js/
-│ │ └── ...
-│ └── images/
-│ └── ...
-├── screenshots/
-│ └── ...
-├── documentation.docx
-├── train_model.py
-├── requirements.txt
-└── ...
-
 # #Website Screenshots
 
 ![Screenshot 1](screenshots/hero.png)
