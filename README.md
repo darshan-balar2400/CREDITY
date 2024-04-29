@@ -6,10 +6,25 @@ account details
 
 # Website Screenshots
 
+![Screenshot 1](screenshots/hero.png)
+*MAIN SECTION*
+
+![Screenshot 2](screenshots/why.png)
+*WHY SECTION*
+
+![Screenshot 1](screenshots/parameters.png)
+*PARAMETERS SECTION*
+
 ![Screenshot 1](screenshots/ss.png)
-*Caption for Screenshot 1*
+*PREDICTOR SECTION*
 
 ![Screenshot 2](screenshots/ss2.png)
-*Caption for Screenshot 2*
+*PREDICTOR SECTION*
+
+![Screenshot 1](screenshots/ss3.png)
+*PREDICTOR SECTION*
+
+![Screenshot 2](screenshots/help.png)
+*HELP SECTION*
 
 
