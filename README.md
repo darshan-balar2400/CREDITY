@@ -3,6 +3,8 @@
 - Classify the customer's credit rating (good or bad) based on their personal and bank
 account details
 
+![Screenshot 1](static/images/logo.png)
+
 ## #How to Run
 
 To run the Flask app locally, follow these steps:
@@ -41,7 +43,7 @@ To run the Flask app locally, follow these steps:
 
 ## Referencing Documentation
 
-You can refer to the `document.docx` file located in the project directory for additional documentation and information.
+You can refer to the `documentation.docx` file located in the project directory for additional documentation and information.
 
 # #Website Screenshots
 
