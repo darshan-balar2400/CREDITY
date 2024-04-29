@@ -1,36 +1,49 @@
-# Welcome to CREDITY
+# #Welcome to CREDITY
 
 - Classify the customer's credit rating (good or bad) based on their personal and bank
 account details
 
-## How to Run
+## #How to Run
 
 To run the Flask app locally, follow these steps:
 
-1. Clone this repository to your local machine:
+1. Install virtualenv:
     ```bash
-    git clone <repository_url>
+    pip install virtualenv
     ```
 
-2. Navigate to the cloned repository directory:
+2. Create a Python virtual environment:
     ```bash
-    cd <repository_directory>
+    virtualenv venv
     ```
 
-3. Install the required dependencies using pip:
+3. Activate the virtual environment:
+    - Windows:
+        ```bash
+        venv\Scripts\activate
+        ```
+    - Linux:
+        ```bash
+        source ./venv/bin/activate
+        ```
+
+4. Install the required dependencies using pip:
     ```bash
     pip install -r requirements.txt
     ```
 
-4. Start the Flask app:
+5. Start the Flask app:
     ```bash
     python app.py
     ```
 
-5. Open your web browser and go to `http://localhost:5000` to view the website.
+6. Open your web browser and go to `http://localhost:5000` to view the website.
 
+## Referencing Documentation
 
-# Website Screenshots
+You can refer to the `document.docx` file located in the project directory for additional documentation and information.
+
+# #Website Screenshots
 
 ![Screenshot 1](screenshots/hero.png)
 *MAIN SECTION*
@@ -52,5 +65,17 @@ To run the Flask app locally, follow these steps:
 
 ![Screenshot 2](screenshots/help.png)
 *HELP SECTION*
+
+## Contributors
+- Anurag Sinha (https://www.linkedin.com/in/anuragsinha03/)
+- Shubham Sinha (https://www.linkedin.com/in/shubhamsinhaaa/)
+- Darshan Balar (https://www.linkedin.com/in/darshan-balar-4302141bb/)
+
+## Additional Notes
+- Ensure that you have Python and pip installed on your machine.
+- Customize the Flask app according to your specific requirements.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 
