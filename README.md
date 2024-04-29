@@ -75,8 +75,9 @@ You can refer to the `documentation.docx` file located in the project directory 
 *HELP SECTION*
 
 ## Contributors
-- Anurag Sinha (https://www.linkedin.com/in/anuragsinha03/)
+
 - Shubham Sinha (https://www.linkedin.com/in/shubhamsinhaaa/)
+- Anurag Sinha (https://www.linkedin.com/in/anuragsinha03/)
 - Darshan Balar (https://www.linkedin.com/in/darshan-balar-4302141bb/)
 
 ## Additional Notes
