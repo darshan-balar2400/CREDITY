@@ -3,7 +3,7 @@
 - Classify the customer's credit rating (good or bad) based on their personal and bank
 account details
 
-![Screenshot 1](static/images/logo.png)
+<!-- ![Screenshot 1](static/images/logo.png) -->
 
 ## #How to Run
 
@@ -53,19 +53,19 @@ You can refer to the `documentation.docx` file located in the project directory 
 ![Screenshot 2](screenshots/why.png)
 *WHY SECTION*
 
-![Screenshot 1](screenshots/parameters.png)
+![Screenshot 3](screenshots/parameters.png)
 *PARAMETERS SECTION*
 
-![Screenshot 1](screenshots/ss.png)
+![Screenshot 4](screenshots/ss.png)
 *PREDICTOR SECTION*
 
-![Screenshot 2](screenshots/ss2.png)
+![Screenshot 5](screenshots/ss2.png)
 *PREDICTOR SECTION*
 
-![Screenshot 1](screenshots/ss3.png)
+![Screenshot 6](screenshots/ss3.png)
 *PREDICTOR SECTION*
 
-![Screenshot 2](screenshots/help.png)
+![Screenshot 7](screenshots/help.png)
 *HELP SECTION*
 
 ## Contributors
