@@ -41,9 +41,36 @@ To run the Flask app locally, follow these steps:
 
 6. Open your web browser and go to `http://localhost:5000` to view the website.
 
+
+## Model Training
+
+The `train_model.py` file contains the code for training the machine learning model used in the application.
+We have used the RandomForest algorithm for classification
+
 ## Referencing Documentation
 
 You can refer to the `documentation.docx` file located in the project directory for additional documentation and information.
+
+## Directory Structure
+
+credity/
+├── app.py
+├── templates/
+│ ├── index.html
+│ └── ...
+├── static/
+│ ├── style/
+│ │ └── CSS/
+│ ├── js/
+│ │ └── ...
+│ └── images/
+│ └── ...
+├── screenshots/
+│ └── ...
+├── documentation.docx
+├── train_model.py
+├── requirements.txt
+└── ...
 
 # #Website Screenshots
 
